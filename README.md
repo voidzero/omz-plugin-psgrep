@@ -63,7 +63,7 @@ To install this plugin:
     out:
 
     ```
-    plugins=(git ${:-$HOME/.oh-my-zsh/custom/plugins/psgrep/*(NF:t)})
+    plugins=(git ${:-$HOME/.oh-my-zsh/custom/plugins/*(NF:t)})
     ```
 
     Or, list them by hand, boring but effective:
